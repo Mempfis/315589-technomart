@@ -90,10 +90,10 @@
             <h1>Перфораторы</h1>
         </div>
         <div class="filter">
-            <p>Фильтр:</p>
+            <div class="search-filter">Фильтр:</div>
             <form action="https://echo.htmlacademy.ru" method="get">
                 <div class="range-filter">
-                    <p>Цена:</p>
+                    <div class="filter-price">Цена:</div>
                     <div class="price range">
                         <div class="scale">
                             <div class="bar"></div>
@@ -106,36 +106,32 @@
                         <input class="max-price" type="text" value="30 000">
                     </div>
                 </div>
-                <div class="manufacturers">
-                    <fieldset>
-                        <legend>Производители:</legend>
-                        <input type="checkbox" id="bosch" checked>
-                        <label for="bosch">Bosch</label>
-                        <input type="checkbox" id="vendor">
-                        <label for="vendor">Интерскол</label>
-                        <input type="checkbox" id="makita" checked>
-                        <label for="makita">Makita</label>
-                        <input type="checkbox" id="dewalt">
-                        <label for="dewalt">Dewalt</label>
-                        <input type="checkbox" id="hitachi">
-                        <label for="hitachi">Hitachi</label>
-                    </fieldset>
-                </div>
-                <div class="power">
-                    <fieldset>
-                        <legend>Питание:</legend>
-                        <input type="checkbox" id="power-1" checked>
-                        <label for="power-1">Аккумуляторные</label>
-                        <input type="checkbox" id="power-2">
-                        <label for="power-2">Сетевые</label>
-                    </fieldset>
-                </div>
+                <fieldset class="manufacturers">
+                    <legend>Производители:</legend>
+                    <input type="checkbox" id="bosch" checked>
+                    <label for="bosch">Bosch</label>
+                    <input type="checkbox" id="vendor">
+                    <label for="vendor">Интерскол</label>
+                    <input type="checkbox" id="makita" checked>
+                    <label for="makita">Makita</label>
+                    <input type="checkbox" id="dewalt">
+                    <label for="dewalt">Dewalt</label>
+                    <input type="checkbox" id="hitachi">
+                    <label for="hitachi">Hitachi</label>
+                </fieldset>
+                <fieldset class="power">
+                    <legend>Питание:</legend>
+                    <input type="checkbox" id="power-1" checked>
+                    <label for="power-1">Аккумуляторные</label>
+                    <input type="checkbox" id="power-2">
+                    <label for="power-2">Сетевые</label>
+                </fieldset>
                 <input type="submit" value="Показать">
             </form>
         </div>
         <div class="goods">
             <div class="sort">
-                <p>Сортировка</p>
+                <div class="search-sort">Сортировка</div>
                 <ul class="sort-by">
                     <li><a href="#">По цене</a></li>
                     <li><a href="#">По типу</a></li>
@@ -170,7 +166,7 @@
                 <div class="actions">
                     <a class="buy" href="#">Купить</a>
                     <a class="bookmark" href="#">В закладки</a>
-                    <div class="item new"></div>
+                    <div class="item new">New</div>
                     <h2>Перфоратор BOSH BFG 2000</h2>
                     <div class="price">12 500 P.</div>
                 </div>
@@ -189,7 +185,7 @@
                     <h2>Перфоратор BOSH BFG 6000</h2>
                     <div class="old-price">30 500 P.</div>
                     <div class="price">25 500 P.</div>
-                    <div class="item new"></div>
+                    <div class="item new">New</div>
                 </div>
                 <div class="item">
                     <div class="image">
@@ -233,6 +229,9 @@
                     </li>
                     <li>
                         <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">Следкющая</a>
                     </li>
                 </ul>
             </nav>
